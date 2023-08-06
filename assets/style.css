@@ -3,8 +3,23 @@ body {
 	margin: auto;
 }
 * {
-	font-family: 'Inter';
+	font-family: 'Inter', sans-serif;
 	font-style: normal;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.height {
+    height: 650px;
+}
+
+.nina {
+	height: 100%;
+}
+
+.camera {
+	height: 100%;
 }
 .top-header {
 	background-color: white;
@@ -90,9 +105,6 @@ body {
 	font-size: 14px;
 }
 
-#gallery {
-	/*	min-height: 100vh; */
-}
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -106,7 +118,8 @@ body {
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
-	color: #000
+	color: #000;
+	cursor: pointer;
 }
 .item-column {
 	position: relative;
@@ -351,6 +364,10 @@ input[type="submit"] {
 	}
 	.picture {
 		width: 80%;
+	}
+	.height {
+		height: auto;
+		width: auto;
 	}
 }
 

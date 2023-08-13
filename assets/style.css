@@ -11,11 +11,13 @@ body {
 }
 
 .height {
-    height: 650px;
+    height: auto;
+	max-width: 100%;
 }
 
 .nina {
-	height: 100%;
+	height: auto;
+	max-width: 100%;
 }
 
 .camera {
@@ -114,7 +116,7 @@ body {
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #BEB45A;
+	background-color: #5E5926;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
@@ -368,6 +370,11 @@ input[type="submit"] {
 	.height {
 		height: auto;
 		width: auto;
+		max-width: 100%;
+	}
+	.nina {
+		height: auto;
+		max-width: 100%;
 	}
 }
 

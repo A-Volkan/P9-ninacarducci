@@ -10,7 +10,7 @@ body {
 	padding: 0;
 }
 
-.height {
+.carroussel  {
     height: auto;
 	max-width: 100%;
 }
@@ -21,7 +21,7 @@ body {
 }
 
 .camera {
-	height: 100%;
+	height: auto;
 }
 .top-header {
 	background-color: white;
@@ -367,7 +367,7 @@ input[type="submit"] {
 	.picture {
 		width: 80%;
 	}
-	.height {
+	.carroussel  {
 		height: auto;
 		width: auto;
 		max-width: 100%;
